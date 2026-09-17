@@ -21,6 +21,12 @@ End-to-end single-cell RNA-seq pipeline built from raw counts through cell-type 
 11. Marker gene identification (Wilcoxon rank-sum test)
 12. Cluster annotation using canonical PBMC marker genes
 
+## Results
+Retained high-quality PBMCs after filtering low-quality cells and cells with elevated mitochondrial content.
+Identified transcriptionally distinct immune-cell populations through Leiden clustering.
+Annotated clusters using differential expression and canonical markers including CD3D, CD79A, NKG7, LYZ, etc.
+Recovered major PBMC populations including T cells, B cells, NK cells, and monocytes.
+
 ## How to run
 Open the notebook and run cells top to bottom.
 
